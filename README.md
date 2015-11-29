@@ -11,6 +11,7 @@
 - Jumpcut ("clipboard buffering"; http://jumpcut.sourceforge.net/)
 - Mendeley (reference manager; https://www.mendeley.com/dashboard/)
 - Cytoscape (visualizing networks; http://www.cytoscape.org/)
+- OSXFUSE (accessing folders over a ssh network; https://osxfuse.github.io/)
 
 ##Browser (Chrome) Extensions
 
@@ -22,8 +23,7 @@
 - Ghostery 
 - AdBlock 
 - Markdown Here (Markdown in emails)
-- 1Password (can generate random usernames/passwords easily with this)
-- Readline (displays text one word at a time via RSVP to facilitate faster reading; almost never use)
+- 1Password (stores and generates random usernames/passwords)
 
 ##Phone Apps
 
@@ -53,6 +53,8 @@ Plugins:
 
 ###R Profile 
 
+- I use stringAsFactors = FALSE; although, this has gotten me a few times when running my scripts places other than my own PC, so be careful. 
+
 ##Textmate 
 
 - Setup TextMate so that it can be called from the terminal (e.g., see [here](http://stackoverflow.com/questions/4011707/how-to-start-textmate-in-command-line)
@@ -64,15 +66,12 @@ Plugins:
 
 ##ssh config 
 
-Useful for super computing... 
+- ControlMaster is essential. 
+- OSXFUSE for view remote folders and files. 
 
 ##Docker Files 
 
-
 ##AWS Usage 
 
-
 #Quantified Self 
-
-
 
