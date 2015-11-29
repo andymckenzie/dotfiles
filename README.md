@@ -67,7 +67,7 @@ Plugins:
 ##ssh config 
 
 - ControlMaster is essential. 
-- OSXFUSE for view remote folders and files. 
+- OSXFUSE for view remote folders and files (http://bhfsteve.blogspot.com/2012/06/using-sshfs-from-osx.html)
 
 ##Docker Files 
 
