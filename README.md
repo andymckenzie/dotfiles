@@ -16,7 +16,8 @@
 
 - StayFocused (block websites, +/- after a specified amount of time)
 - Kill News Feed (this helped me use FB much less)
-- Delicious App (I'm the only one still using del.ico.us; https://delicious.com/porejide)
+- Momentum 
+- Delicious App (I might be the only one still using del.ico.us; https://delicious.com/porejide)
 - Google scholar button (easily look up articles mentioned on a page)
 - Ghostery 
 - AdBlock 
@@ -24,14 +25,13 @@
 - 1Password (can generate random usernames/passwords easily with this)
 - Readline (displays text one word at a time via RSVP to facilitate faster reading; almost never use)
 
-##Essential Phone Apps
+##Phone Apps
 
 - Anki 
 - Pomodoro (I usually set to 45 mins on; 12 mins off)
-- SimplyNoise (white/brown noise as a sleep aid in noisy environments)
-- Fitbit
+- SimplyNoise (brown noise as a sleep aid in noisy environments)
+- Fitbit 
 - Spotify (**scrobble to last.fm to save record of songs**)
-- Heads Up 
 
 #Configurations 
 
@@ -39,23 +39,19 @@
 
 - Change the keyboard repeat rate to max, and the delay until repeat to the shortest possible. 
 - Remap the caps lock key to control. 
+- Add the Greek keyboard symbols (this is essential if you work in the science field and have to write symbols like ε and Δ all the time)
 
 ##Terminal  
 
-- Install zsh via homebrew. 
-- Install oh-my-zsh via homebrew, and change it to main shell. 
-- Profiles: Pro; Cursor: Block; Size: 16
+- Profiles: Pro; Cursor: Block; 
 
 ### Zsh Profile 
 
+Plugins: 
+ 
 - zsh-syntax-highlighting
-- For more, dotfile
 
 ###R Profile 
-
-- Automatic downloads from a CRAN mirror
-- library(colorout)
-- For more, see dotfile
 
 ##Textmate 
 
@@ -72,15 +68,11 @@ Useful for super computing...
 
 ##Docker Files 
 
-[To be added...]
 
 ##AWS Usage 
-
-#
 
 
 #Quantified Self 
 
-##Current Data Streams 
 
 
