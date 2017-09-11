@@ -1,77 +1,98 @@
-#External  Downloads  
+# Mac Downloads  
 
-##MacOS X Software 
+## MacOS X Software
 
 - Anki (http://ankisrs.net/)
-- SelfControl (https://selfcontrolapp.com/)
-- TextMate (https://www.mendeley.com/dashboard/)
+- SelfControl (utterly essential; https://selfcontrolapp.com/)
+- Atom
 - F.lux (https://justgetflux.com/)
 - RescueTime (https://www.rescuetime.com/)
 - 1Password (https://agilebits.com/onepassword)
-- Jumpcut ("clipboard buffering"; http://jumpcut.sourceforge.net/)
-- Mendeley (reference manager; https://www.mendeley.com/dashboard/)
+- CopyClip ("clipboard buffering")
 - Cytoscape (visualizing networks; http://www.cytoscape.org/)
-- OSXFUSE (accessing folders over a ssh network; https://osxfuse.github.io/)
+- iTerm2
+- Homebrew to install apps/utilities when possible
+- Spotify
 
-##Browser (Chrome) Extensions
+## Browser (Chrome) Extensions
 
 - StayFocused (block websites, +/- after a specified amount of time)
 - Kill News Feed (this helped me use FB much less)
-- Momentum 
-- Delicious App (I might be the only one still using del.ico.us; https://delicious.com/porejide)
-- Google scholar button (easily look up articles mentioned on a page)
-- Ghostery 
-- AdBlock 
-- Markdown Here (Markdown in emails)
+- Momentum
+- Pinboard App (I might be the only one still using del.ico.us; https://delicious.com/porejide)
+- Ghostery
+- AdBlock
 - 1Password (stores and generates random usernames/passwords)
+- Readline (for RSVP; "Select Text + Spacebar starts Readline"; WPM = 300)
 
-##Phone Apps
+# Mac Configurations
 
-- Anki 
-- Pomodoro (I usually set to 45 mins on; 12 mins off)
-- SimplyNoise (brown noise as a sleep aid in noisy environments)
-- Fitbit 
-- Spotify (**scrobble to last.fm to save record of songs**)
+## Keyboard
 
-#Configurations 
+- Change the keyboard repeat rate to max, and the delay until repeat to the shortest possible.
+- Remap the caps lock key to control.
+- Add the Greek keyboard symbols (this is essential if you work in the science field and have to write symbols like ε and Δ all the time) and the Spanish keyboard symbols
 
-## Keyboard 
+## Finder
 
-- Change the keyboard repeat rate to max, and the delay until repeat to the shortest possible. 
-- Remap the caps lock key to control. 
-- Add the Greek keyboard symbols (this is essential if you work in the science field and have to write symbols like ε and Δ all the time)
+- Run the following in a terminal to show dotfiles by default:
+- defaults write com.apple.finder AppleShowAllFiles YES
+- Then refresh the finder by clicking alt/option + right click on the dock item -> Relaunch
 
-##Terminal  
+## iTerm2 Terminal
 
-- Profiles: Pro; Cursor: Block; 
+- Profile: UnderTheSea
 
-### Zsh Profile 
+## TextEdit
 
-Plugins: 
- 
-- zsh-syntax-highlighting
+- Run the following in a terminal to disable the default TextEdit rulers:
+- defaults write com.apple.TextEdit RichText -int 0
 
-###R Profile 
+## R Profile
 
-- I use stringAsFactors = FALSE; although, this has gotten me a few times when running my scripts places other than my own PC, so be careful. 
+- copy/paste this to "/Users/$login_name"
+- library(colorout) to make life more fun
+- library(BiocInstaller) to save time installing BioConductor packages
+- I use stringAsFactors = FALSE; although, this has gotten me a few times when running my scripts places other than my own PC, so be careful.
+- lsp($package) function to quickly view all of the available functions in a package
 
-##Textmate 
+## Atom
 
-- Setup TextMate so that it can be called from the terminal (e.g., see [here](http://stackoverflow.com/questions/4011707/how-to-start-textmate-in-command-line)
-- Download the R syntax highlighting package. 
-- [Disable auto-indenting](http://textmate.1073791.n5.nabble.com/TextMate-2-turn-off-auto-indent-td25971.html)
-- Include ~/.tm_properties as above. 
+- Install shell commands
 
-#Servers 
+# Servers
 
-##ssh config 
+## ssh config
 
-- ControlMaster is essential. 
+- ControlMaster
 - OSXFUSE for view remote folders and files (http://bhfsteve.blogspot.com/2012/06/using-sshfs-from-osx.html)
 
-##Docker Files 
+## Bot running
 
-##AWS Usage 
+- To run a bot on a server that you're not logged into, use something like:
+screen -S $name_of_screen
+python3.6 $name_of_bot.py
+ctrl-a d (to exit screen)
+screen -r (to return to screen)  
 
-#Quantified Self 
+# iPhone
 
+## Apps
+
+- Anki
+- Pomodoro (I usually set to 45 mins on; 15 mins off)
+- SimplyNoise (brown noise as a sleep aid in noisy environments)
+- Fitbit
+- Spotify
+- DarkSky
+
+## Settings
+
+- Set to greyscale by going to Settings -> General -> Accessibility -> Display Accommodations -> Color Filters -> Greyscale (to make it slightly less addictive)
+- If wasting time on a website/set of websites, mark them as "Adult Sites" to block them in Settings -> General -> Restrictions -> Websites -> Limit Adult Content -> Never Allow (add URLs here)
+
+# Quantified Self
+
+## Daily LifeStats on Google Sheets
+
+- https://andrewtmckenzie.com/2016/05/07/eight-years-of-tracking-my-life-statistics/
