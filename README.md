@@ -19,7 +19,7 @@
 - StayFocused (block websites, +/- after a specified amount of time)
 - Kill News Feed (this helped me use FB much less)
 - Momentum
-- Pinboard App (I might be the only one still using del.ico.us; https://delicious.com/porejide)
+- Pinboard App 
 - Ghostery
 - AdBlock
 - 1Password (stores and generates random usernames/passwords)
